@@ -1,0 +1,40 @@
+
+
+:root {
+    --p-primary-color: #8393F3 !important;
+    --p-border-radius: 10px !important;
+    --p-primary-color-hover: #6275D9 !important;
+}
+
+
+.p-button:hover {
+    background-color: var(--p-primary-color-hover) !important;
+    border-color: var(--p-primary-color-hover) !important;
+}
+.p-datatable .p-datatable-tbody tr:nth-child(even) {
+    background-color: #2a2d40 !important;
+
+
+}
+
+.p-datatable .p-datatable-tbody tr:nth-child(odd) {
+    background-color: #2f3448 !important; /* Gris foncé */
+}
+
+.p-datatable .p-datatable-tbody tr {
+    color: rgba(255, 255, 255, 0.89) !important;
+}
+
+.p-datatable .p-datatable-header-cell {
+    background-color: #2a2d40 !important; /* Noir/gris foncé */
+    color: rgba(255, 255, 255, 0.89) !important;
+    border-bottom: none !important;
+}
+
+.p-datatable-tbody {
+    border: none !important;
+}
+
+:deep(.p-datatable .p-datatable-tbody td) {
+    border-bottom: none !important;
+}
